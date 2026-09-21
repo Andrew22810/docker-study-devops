@@ -1,0 +1,11 @@
+Имя: AAA
+
+Выполненные команды из задания 7:
+
+docker run -d --name my-copy -p 127.0.0.1:8082:80 student-site:v2
+
+docker stop my-site
+
+docker ps -a
+
+docker start my-site
